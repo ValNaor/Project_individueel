@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "articslab";
+    src: url(../fonts/anticslab-regular.ttf);
+}
+
+@font-face {
+    font-family: "nunito";
+    src: url(../fonts/nunito/nunito-medium.ttf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/broodtekst/Poppins-Light.ttf);
+}
+
+p{
+    font-family: "poppins";
+    font-size: 1em;
+    padding: 3em;
+    color: #262626;
+}
+
+img{
+    width: 100%;
+}
+
+header nav ul {
+                    
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    justify-content: space-evenly;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom:1em ;
+    position: absolute;
+    min-width: 100%;
+    background-color: white;
+
+}
+
+header nav ul li {
+   
+   list-style-type: none; 
+   font-family: "nunito";
+   background-color: white;
+   
+}
+
+header nav ul li a {
+
+   padding: 1em; 
+   text-decoration: none; 
+   color: #262626;
+   
+}
+
+h1{
+    font-family: "nunito";
+    font-size: 2em;
+    color: #262626;
+}
+
+h2{
+    font-family: "nunito";
+    font-size: 1.2em;
+    color: #262626;    
+}
+
+
+#landingpage div:nth-child(1){
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100%;
+    min-height: 14em;
+    background-image: url(../../images/landingpage_homepage_3.JPG);
+    width: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#landingpage div:nth-child(2){
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100%;
+    min-height: 14em;
+    background-image: url(../../images/landingpage_doelen.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#landingpage div:nth-child(3){
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100%;
+    min-height: 14em;
+    background-image: url(../../images/samenwerking.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#landingpage div a{
+
+    align-self: center;
+    font-family: "nunito";
+    color: white;
+    font-size: 250%;
+    padding: 20%;
+    text-decoration: none;
+    text-shadow: 2em 2em 3em black;
+}
+
+#homepage section:first-child, #doelen section:first-child, #samenwerking section:first-child{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    min-height: 42em;
+    min-width: 100%;
+
+}
+
+#homepage blockquote{
+
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #467060;
+    padding: 0.5em;
+    color: white;
+    font-family: "articslab";
+
+}
+
+#homepage section:not(:first-child){
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+
+}
+
+#homepage section h2{
+
+    align-self: center;
+    padding: 1em;
+
+}
+
+#homepage section img{
+
+    max-width: 50%; 
+    height: 70%;
+    
+}
+
+#homepage section p{
+
+    align-self: flex-end;
+    max-width: 40%;
+    padding-top: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    
+}
+
+#homepage section p:nth-child(4){
+
+    max-width: 100%;
+}
+
+#homepage div{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    height: 4em;
+    padding: 2em;
+}
+
+#homepage div a{
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #467060;
+    text-decoration: none;
+    color: white;
+    font-family: "nunito";
+    font-size: 1.3em;
+    border-radius: 35px;
+}
+
+#materialen section:first-child{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../../images/materialen_foto_1.JPG);
+    background-size: cover;
+    min-height: 30em;
+
+}
+
+#materialen section h1{
+
+    max-width: 70%;
+    color: #f2f2f2;
+}
+
+#materialen div {
+
+    min-height: 10em;
+}
+
+#materialen div img{
+
+    width: 20%;
+}
+
+footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #467060;
+    height: 11em;
+}
+
+footer p{
+
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    color: white;
+}
+
+#doelen p:nth-child(2){
+
+    background-color: #f2f2f2;
+}
+
+#doelen section:nth-child(4){
+
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doelen h3{
+
+    align-self: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: #467060;
+    font-family: "nunito";
+
+}
+
+#doelen p:not(nth-child(1)){
+
+    background-color: transparent;
+}
+
+#doelen a{
+
+    color: #467060;
+    text-decoration: none;
+}
+
+#doelen section:nth-child(5){
+
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#doelen section img{
+
+    max-width: 50%;
+    position: relative;
+    transition: 1s;
+}
+
+#doelen section img:active{
+
+    max-width: 70%;
+    position: relative;
+    transition: 1s;
+    z-index: 1;
+}
+
+#doelen section h2:nth-child(1){
+   
+    padding-top: 3em;
+    left: 1.8em;
+    color: white;
+    text-shadow: 0.5em 0.5em 1em #262626;
+    position: absolute;
+    width: 8em;
+    z-index: 1;
+
+}
+
+#doelen section h2:nth-child(3){
+
+    padding-top: 3em;
+    color: white;
+    text-shadow: 0.5em 0.5em 1em #262626;
+    position: absolute;
+    width: 8em;
+    left: 11.5em;
+    z-index: 1;
+    align-self: right;
+
+}
+
+#samenwerking section:nth-child(2){
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#467060;
+    min-width: 100%;
+    height: 5em;
+}
+
+#samenwerking section h2:first-of-type{
+
+    color: white;
+    text-shadow: 0.5em 0.5em 1em #262626;
+    position: absolute;
+    padding: 1em;
+
+}
+
+#samenwerking img:first-of-type{
+
+    padding-top: 3em;
+    
+}
+
+#materialen section{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#materialen section h2{
+
+    color: #467060;
+    padding-top: 3em;
+    font-size: 1.5em;
+}
